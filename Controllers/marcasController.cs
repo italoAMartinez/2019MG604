@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using _2019MG604.Models;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace _2019MG604.Controllers
 {
@@ -103,6 +105,5 @@ namespace _2019MG604.Controllers
             return Ok(marcaExiste);
         }
 
-    }
     }
 }
